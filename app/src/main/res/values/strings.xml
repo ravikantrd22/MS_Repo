@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">ShaktiAssets</string>
+
+    <string name="form_head">Mission Shakti Assets</string>
+    <string name="reg_head">Register Asset </string>
+    <string name="info">Contact Information </string>
+    <string name="designation">Designation </string>
+    <string name="reg_form">Registration Form </string>
+    <string name="fill_form">Fill Form </string>
+    <string name="track_status">Track Status </string>
+    <string name="head1">Sakhi Niwas (WWH) </string>
+    <string name="head2">Shakti Sadan </string>
+    <string name="head3">Palna (Creche) </string>
+    <string name="head5">One Stop Centres (OSC) </string>
+    <string name="personal">Contact Person Detail </string>
+    <string name="email">Email Id<font color='@android:color/red'> *</font></string>
+    <string name="upload">Upload Image </string>
+    <string name="head4">4. Apply for Working Women Hostel </string>
+    <string name="head6">6. Apply for Social/Legal Counselling- OSC </string>
+    <string name="head7">7. Search AWW/FF </string>
+    <string name="head8">8. Search Creche </string>
+    <string name="social">Social Category </string>
+    <string name="address">Present Address </string>
+    <string name="dates">Important Dates </string>
+    <string name="reg_date">PMMVY Registration Date<font color='@android:color/red'> *</font> </string>
+    <string name="child_detail">Number of living children in the family<font color='@android:color/red'> *</font> </string>
+    <string name="none">None </string>
+    <string name="reg_mobile">Registered Mobile Number </string>
+    <string name="one">One </string>
+    <string name="more">More than one </string>
+    <string name="aadhaar_detail">Does the Beneficiary have aadhaar card?<font color='@android:color/red'> *</font> </string>
+    <string name="emp_detail">Is the Beneficiary an Employee of the Central Gov./State Gov./PSU?<font color='@android:color/red'> *</font> </string>
+    <string name="yes">Yes </string>
+    <string name="no">No </string>
+    <string name="na">Not Applicable </string>
+    <string name="child_detail_et">Number of living children<font color='@android:color/red'> *</font> </string>
+    <string name="relation_type">Relationship With Beneficiary<font color='@android:color/red'> *</font> </string>
+    <string name="child1_gender">Gender of First Child <font color='@android:color/red'> *</font> </string>
+    <string name="child2_gender">Gender of Second Child<font color='@android:color/red'> *</font> </string>
+    <string name="child3_gender">Gender of Third Child<font color='@android:color/red'> *</font> </string>
+    <string name="same_pregnancy">Are These Children From Same Pregnancy?<font color='@android:color/red'> *</font> </string>
+    <string name="aadhaar_en_id">Aadhaar Enrollment ID<font color='@android:color/red'> *</font> </string>
+    <string name="doc_type">Document Type<font color='@android:color/red'> *</font></string>
+    <string name="category">Category<font color='@android:color/red'> *</font> </string>
+    <string name="id_no">Identity No.<font color='@android:color/red'> *</font></string>
+    <string name="age">Age (in Years)<font color='@android:color/red'> *</font></string>
+    <string name="name">Name<font color='@android:color/red'> *</font> </string>
+    <string name="adhar_no">Aadhaar Number<font color='@android:color/red'> *</font></string>
+    <string name="mobile_no">Mobile Number<font color='@android:color/red'> *</font></string>
+    <string name="mcts_id">MCTS/RCH ID </string>
+    <string name="anc_date">Ante-Natal Check-up (ANC) Date<font color='@android:color/red'> *</font> </string>
+    <string name="lmp_date">Last Menstrual Period (LMP) Date<font color='@android:color/red'> *</font> </string>
+    <string name="date_of_reg_mcp">Date of Reg of MCP card<font color='@android:color/red'> *</font> </string>
+    <string name="delivery_date">Actual Date of Child Birth </string>
+    <string name="meal">Free of Charge Meal<font color='@android:color/red'> *</font> </string>
+    <string name="from">From<font color='@android:color/red'> *</font> </string>
+    <string name="to">To </string>
+    <string name="jsy">Did Beneficiary Receive Incentive Under Janani Suraksha Yojana(JSY)? <font color='@android:color/red'> *</font> </string>
+    <string name="jsy_amount_received">How Much Amount Was Received<font color='@android:color/red'> *</font> </string>
+    <string name="jsy_amnt_rec_date">Date of Receipt of Amount<font color='@android:color/red'> *</font> </string>
+    <string name="child4_gender">Gender of Fourth Child<font color='@android:color/red'> *</font> </string>
+    <string name="male">Male </string>
+    <string name="female">Female </string>
+    <string name="institute_name">Name of Institute of Child Birth<font color='@android:color/red'> *</font> </string>
+    <string name="vaccination_detail">Was Vaccination Recorded on MCP Card?<font color='@android:color/red'> *</font> </string>
+    <string name="delivery_detail">Was the Child Delivered in a Government Approved Institution?<font color='@android:color/red'> *</font> </string>
+    <string name="children">Number of Children </string>
+    <string name="vaccination">Vaccinations Given<font color='@android:color/red'> *</font> </string>
+    <string name="bcg">BCG or Equivalent/Substitute </string>
+    <string name="opv">OPV or Equivalent/Substitute </string>
+    <string name="dpt">DPT or Equivalent/Substitute </string>
+    <string name="hepatitis">Hepatitis - B or Equivalent/Substitute </string>
+    <string name="add_tv">Address<font color='@android:color/red'> *</font></string>
+    <string name="street">Street/Road/Lane<font color='@android:color/red'> *</font></string>
+    <string name="village">Village<font color='@android:color/red'> *</font></string>
+    <string name="ward">Ward<font color='@android:color/red'> *</font></string>
+    <string name="district">District<font color='@android:color/red'> *</font></string>
+    <string name="state">State<font color='@android:color/red'> *</font></string>
+    <string name="post">Post Office</string>
+    <string name="block">Block<font color='@android:color/red'> *</font></string>
+    <string name="sub_dist">Sub District<font color='@android:color/red'> *</font></string>
+    <string name="locality">Area/Locality<font color='@android:color/red'> *</font></string>
+    <string name="pin">Pincode<font color='@android:color/red'> *</font></string>
+    <string name="field_fun_assign">Assigned Field Functionary </string>
+    <string name="lgd">LGD Block<font color='@android:color/red'> *</font> </string>
+    <string name="field_fun">Assigned Field Functionary<font color='@android:color/red'> *</font> </string>
+    <string name="ac_detail">Account Details </string>
+    <string name="select_bank">Select Bank/PO<font color='@android:color/red'> *</font> </string>
+    <string name="area">Area<font color='@android:color/red'> *</font> </string>
+    <string name="rural">Rural </string>
+    <string name="urban">Urban </string>
+    <string name="bank">Bank </string>
+    <string name="branch_name">Branch Name<font color='@android:color/red'> *</font></string>
+    <string name="bank_po_name">Bank Name<font color='@android:color/red'> *</font></string>
+    <string name="ifsc_code">IFSC Code<font color='@android:color/red'> *</font></string>
+    <string name="ac_no">Account Number<font color='@android:color/red'> *</font></string>
+    <string name="post_sol_id">Post Office ID/SOL ID<font color='@android:color/red'> *</font></string>
+    <string name="post_ac_no">Post Office Basic Savings Account Number<font color='@android:color/red'> *</font></string>
+    <string name="ac_open_date">Date of Account Opening<font color='@android:color/red'> *</font></string>
+    <string name="cif_id">CIF ID of Beneficiary<font color='@android:color/red'> *</font></string>
+    <string name="login">LOGIN</string>
+    <string name="create">CREATE ACCOUNT</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="request_otp">Request OTP</string>
+    <string name="forgot_password_login">Forgot Password?</string>
+    <string name="sign_up">SignUp Here</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_logout">Log Out</string>
+
+    <string name="menu_reg">Beneficiary Registration</string>
+    <string name="menu_acc">Update Account Details</string>
+    <string name="menu_mig">Update Migration Details</string>
+    <string name="menu_child">Update Childbirth Details</string>
+    <string name="menu_clouser">Clouser of Beneficiary</string>
+    <string name="menu_search">Search Beneficiary</string>
+    <string name="menu_logout">Log Out</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

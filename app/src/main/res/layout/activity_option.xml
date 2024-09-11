@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.OptionActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="350dp"
+                    android:layout_height="81dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:background="@drawable/logo_app" />
+
+                <TextView
+                    android:id="@+id/form_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/top_8"
+                    android:background="@color/theme"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/form_head"
+                    android:textAppearance="@style/header_tv" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/pmmvy_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/right_12"
+                android:layout_marginLeft="@dimen/right_12"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="@dimen/right_12"
+                android:layout_marginBottom="60dp"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/sakhi_niwas_cv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/left_12"
+                    android:layout_marginRight="@dimen/right_12"
+                    android:backgroundTint="@color/gray1"
+                    android:background="@drawable/home_border"
+                    android:layout_marginTop="@dimen/top_20"
+                    app:cardElevation="@dimen/elev_5"
+                    app:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/home_border"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/fill_form"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:gravity="center"
+                            android:padding="15dp"
+                            android:text="@string/head1"
+                            android:textAppearance="@style/home_tv" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/ward_block_cv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/left_12"
+                    android:layout_marginRight="@dimen/right_12"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/gray1"
+                    app:cardElevation="@dimen/elev_5"
+                    app:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/home_border"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/ward_block_form"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dp"
+                            android:layout_gravity="left"
+                            android:padding="15dp"
+                            android:text="@string/head2"
+                            android:textAppearance="@style/home_tv" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/whl_cv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/left_12"
+                    android:layout_marginRight="@dimen/right_12"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/gray1"
+                    app:cardElevation="@dimen/elev_5"
+                    app:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/home_border"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/whl_form"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dp"
+                            android:layout_gravity="left"
+                            android:gravity="center"
+                            android:padding="15dp"
+                            android:text="@string/head3"
+                            android:textAppearance="@style/home_tv" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/wwh_cv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/left_12"
+                    android:layout_marginRight="@dimen/right_12"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/gray1"
+                    app:cardElevation="@dimen/elev_5"
+                    app:cardCornerRadius="5dp">
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/osc_cv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/left_12"
+                    android:layout_marginRight="@dimen/right_12"
+                    android:layout_marginBottom="@dimen/bottom_16"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/gray1"
+                    app:cardElevation="@dimen/elev_5"
+                    app:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/home_border"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/osc_form"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dp"
+                            android:layout_gravity="left"
+                            android:padding="15dp"
+                            android:text="@string/head5"
+                            android:textAppearance="@style/home_tv" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
